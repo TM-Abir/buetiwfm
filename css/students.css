@@ -1,0 +1,365 @@
+ .about .card-box {
+    padding: 57px 30px 34px;
+}
+.panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+ #facilities{
+  padding: 80px 0px 20px;
+ }   
+
+ #assist{
+
+    padding: 60px 0px 140px;
+ }
+#facilities .semi-header {
+    left: 77px;
+}
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+       display: block;
+        padding: 8px 0px;
+        margin-left: 20px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+   .panel-group .panel+.panel {
+    margin-top: -10px;
+   }
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+  #accordion {
+       position: relative;
+       top: 30px;
+        background: #eee;
+   }    
+  
+.degrees .d-list .education .education-list {
+    padding: 1px 13px 6px;
+}
+
+.d-list .education-list:before{
+    left: 56px;
+}
+.degrees .card-box {
+    padding: 35px 30px 30px;
+}
+ 
+.glyphicon {
+    position: relative;
+    top: -7px;
+   float: right;
+    width: 30px;
+    color: #000;
+    right: 5px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 7px 7px;
+}
+ .two, .three,.four, .five, .six,.seven{
+        border: 7px solid #eee;
+ }
+
+.panel-body{
+    background: #fff;
+}
+#collapseOne{
+    background: rgb(238, 238, 238);
+    padding: 6px 6px;
+    transition: .2s;
+}
+#collapseTwo,#collapseThree{
+    background: rgb(238, 238, 238);
+    transition: .2s;
+    
+}
+.collapsed{
+    color: #fff;
+}
+
+.panel-heading:hover,
+.panel-heading:focus,
+.panel-heading:hover a,
+.panel-heading:focus a {
+  color: #000;
+  text-decoration: none !IMPORTANT;
+}
+.activestate {
+  background-color: #ac1f24 !IMPORTANT;
+  color: #fff !important;
+  display: block;
+}
+
+.activestate a{
+    color: #fff;
+    padding: 15px 0px;
+}
+
+.activestate .glyphicon {
+    background: #cb2228;
+    color: #fff;
+} 
+.activestate:hover a {
+  color: #fff;
+}
+.panel-heading {
+  display: block
+}
+.panel-default>.panel-heading {
+    background-color: #fff;
+    
+}
+.pad-cus{
+    padding: 5px 13px 0px;
+   
+}
+.degrees {
+    padding: 56px 0px 0px;
+    background: #eee;
+    margin-bottom: 50px
+}
+.degrees .news {
+    /* position: relative; */
+    cursor: pointer;
+    /*padding: 0px 0px;*/
+    /* background: #fff; */
+    margin: 11px 7px;
+}
+.degrees .news{
+       margin: 0px -43px 38px;
+   background: none;
+}
+.education .education-list:before{
+    background: #ac1f24;
+}
+/*.degrees .nav-tabs{
+   margin: -97px 0px 55px 28px;
+    
+}*/
+
+.degrees .nav-tabs>li {
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+.qualification .card-box{
+    height: 385px;
+    margin-bottom: 70px;
+}
+.qualification .education-list{
+    position: relative;
+    padding: 18px 23px 2px;
+}
+.qualification .education{
+    margin: 35px 0px 90px;
+}
+.qualification .education .education-list {
+    list-style-type: none;
+    padding: 18px 23px 2px;
+}
+.qualification .education .education-list:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background: #ac1f24;
+    left: 2px;
+     top: 17px; 
+}
+.table{
+    margin-top: 46px;
+}
+.bor-b{
+    border-bottom: 0px;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th{
+    border-bottom: 0px;
+    background: #f9f9f9;
+     padding: 32px 4px 32px 87px;
+     border-bottom: 1px solid #dfc7c8;
+}
+.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th{
+   padding: 22px 4px 22px 87px;
+    width: 25%;
+    border-bottom: 0px;
+}
+.table-striped>tbody>tr:nth-of-type(odd){
+    background: #fff;
+}
+
+/*.bd-r{
+    border-right: 1px solid #dfc7c8;
+}*/
+
+ 
+
+.facilites .item img{
+   width: 100%;
+   height: 422px;
+}
+
+.facilites .apply-infos{
+    padding: 50px 39px;
+    margin-top: 20px;
+}
+.facilites .semi-header::before{
+    background:  #fff;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+#assist .news-box{
+  background: #fff;
+   padding: 30px 36px 5px;
+
+}
+
+#assist .tab{
+      height: auto;
+    overflow-y: hidden;
+}
+
+#assist .tab-content{
+        padding: 12px 10px 12px;
+        height: auto;
+}
+
+#assist .card-box {
+    padding: 49px 30px 34px!important;
+}
+
+/*SLIDER*/
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb
+& https://jsfiddle.net/q0rgL8ws/
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+    overflow:hidden;
+}
+.facilites .item.active img {
+    transition: transform 5000ms linear 0s;
+    /* This should be based on your carousel setting. For bs, it should be 5second*/
+    transform: scale(1.05, 1.05);
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+  display: none;
+}
+.carousel-caption{
+  text-shadow: none;
+}
+.carousel {
+    position: relative;
+    top: 20px;
+}
+#facilities .apply-text {
+    position: relative;
+    top: 16px;
+    background: #f7f7f7;
+    width: 349px;
+    left: -75px;
+    font-size: 20px;
+    color: red;
+    height: 71px;
+}
+
+#facilities .apply-header {
+    font-size: 18px;
+    position: relative;
+    top: 27px!important;
+    left: -57px!important;
+    color: #800000;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color: #ac1f24;
+    border: 1px solid #fff;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 85%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+@media  (min-width: 768px){
+  .carousel-indicators {
+    bottom: 41px;
+  }
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}

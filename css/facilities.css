@@ -1,0 +1,282 @@
+
+.facility_des{
+	padding: 70px 0px 100px;
+}
+.lab_facility li{
+	list-style-type: decimal;
+}
+
+.lab_facility{
+	margin: -6px 0px 0px 34px;
+}
+.facilites-left .card-box{
+	padding: 38px 30px 40px;
+}
+.facilites-right .card-box{
+      padding: 42px 30px 44px;
+}
+.para-s{
+	    line-height: 25px;
+}
+.facilites-right .para-s{
+	margin-top: 2px;
+}
+
+.mar-t24{
+	margin-top: 24px;
+}
+
+.facility_des .news-date:before{
+	content: "";
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    position: absolute;
+    background: #ac1f24;
+    left: 4px;
+    top: 5px;
+}
+
+.news-date{
+    margin-left: 26px;
+}
+
+.pos{
+	position: relative;
+}
+ .physical_facilitylab .border{
+    
+    margin-top: 12px;
+  }  
+.facilites-number{
+	background: url('../images/facilities_hero.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow:hidden;
+    background-repeat: no-repeat;
+    padding: 69px 0px 100px;
+    
+}
+.element-box{
+	background: #fff;
+	box-shadow: none;
+  height: 248px;
+}
+.element-box {
+      padding: 50px 9px 40px!important;
+}
+.element-box .para-b, .element-box .para-s{
+	text-align: center;
+}
+.element-box .para-s{
+  font-size: 16px;
+}
+
+.physical_facilitylab{
+	padding: 100px 0px 10px;
+}
+.card-pad{
+       padding: 41px 48px 61px;
+       
+       box-shadow: 2px 0px 14px 1px rgba(230,225,230,0.82);
+       -webkit-box-shadow: 2px 0px 14px 1px rgba(230,225,230,0.82);
+      -moz-box-shadow: 2px 0px 14px 1px rgba(230,225,230,0.82);
+}
+.carousel-control  img{        
+    position: absolute;
+    /*set position of image from top to be 50%...*/
+    top: 50%;
+    /*and then shift it down to make it perfectly center.*/
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+    display: inline-block;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img{
+   width: 100%;
+   
+}
+.carousel {
+    position: relative;
+    top: 0px;
+}
+/* Carousel Fading slide */
+.carousel-fade .carousel-inner { background: #fff; }
+.carousel-fade .carousel-control { z-index: 2; }  
+.carousel-fade .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  }
+
+  .carousel-fade .next.left,
+  .carousel-fade .prev.right,
+  .carousel-fade .item.active { opacity: 1; }
+
+  .carousel-fade .active.left,
+  .carousel-fade .active.right {
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    }
+
+
+/* Safari Fix */
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+
+
+/* Carousel Control custom */
+.carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+  .carousel-control .prev { margin-left:  -15px;  left: 50%; } /* Prev */
+  .carousel-control .next { margin-right: -15px; right: 50%; } /* Next */
+
+
+/* Removing BS background */
+.carousel .control-box { opacity: 1; }
+a.carousel-control.left  { 
+     background: #fff;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 999;
+    top: 83%;
+    left: 44px;
+}
+.carousel-fade .carousel-control {
+    z-index: 2;
+    display: block;
+}
+.carousel-control:focus, .carousel-control:hover{
+   opacity: 1;
+}
+a.carousel-control.right { 
+    right: 44px;
+    background: #fff;
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    z-index: 999;
+    top: 83%;
+    
+  }
+
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+  opacity: 1;
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  } 
+
+
+/* Hover animation */
+/*.carousel:hover .control-box { opacity: 1; }
+.carousel:hover a.carousel-control.left { left: 15px; }
+.carousel:hover a.carousel-control.right { right: 15px; }  
+*/
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li { border: 0; }
+
+.carousel-indicators li {
+  background: #666;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.carousel-indicators li.active {
+  background: #fff;
+  margin: 0 3px;
+  }
+#activity{
+    padding: 100px 0px 100px;
+}
+#activity .apply-bg{
+      background: url(../images/library.jpg);
+          height: 422px;
+    background-size: cover;
+}
+#activity .apply-infos {
+    padding: 40px 39px;
+}
+#activity .link-p {
+    margin: 4px 49px;
+}
+.apply-header{
+   font-size: 14px;
+   font-weight: 700;
+}
+#activity .links {
+   padding: 0px 0px;
+    margin-left: 40px;
+}
+#activity .links a{
+   font-size: 14px;
+}
+#instruments .owl-carousel .owl-item img {
+    width: 100%;
+}
+#instruments .para-n {
+    text-align: center;
+}
+
+
+#instruments .card-box {
+    padding: 16px 30px 15px;
+}    
+
+#instruments .semi-header:before{
+  display: none;
+}
+.margin-t50 {
+    margin-top: 50px;
+}

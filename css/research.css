@@ -1,0 +1,28 @@
+.researches-name{
+	background: #eee;
+	padding-top: 60px;
+}
+.researches-name .nav-tabs>li {
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+.researches-name .nav-tabs>li>a {
+    background: #fff;
+}
+.education p {
+    font-size: 16px;
+    margin-top: -6px;
+}
+
+.para-b{
+	font-size: 14px;
+}
+.news {
+   
+    padding: 40px 30px 10px;   
+}
+
+#input-search {
+    padding: 0px 64px;
+}    

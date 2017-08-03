@@ -1,0 +1,180 @@
+
+.info-nav{
+     padding: 15px 110px;
+}
+
+    .personal-info-nav{
+    float: right;
+    margin-right: 18px;
+}
+.personal-info-nav .info-link a{
+   font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    transition: all .2s;
+}
+a.selected{
+   color: #000!important;
+  text-shadow: 0.3px 0.4px!important;
+}
+.personal-info-nav .info-link a:hover{
+    color:#000;
+   text-shadow: 0.3px 0.4px;  
+}
+
+
+.bottomMenu {
+    display: none;
+    position: fixed;
+    top: 51px;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0px 0px 12.22px 0.78px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow:0px 0px 12.22px 0.78px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 12.22px 0.78px rgba(0, 0, 0, 0.16);
+
+}
+
+
+
+.members .business-card {
+    padding: 18px 18px 18px;
+}
+.subjects{
+	margin: 35px 0px 30px;
+}
+.subjects .subject-tab{
+	list-style-type: none;
+	display: inline-block;
+}
+.subject-tab{
+	background: #fbfbfb;
+    border-radius: 9px;
+    padding: 7px 12px;
+    border: 1px solid #dfc7c8;
+    margin: 0px 8px 10px;
+    cursor: pointer;
+
+}
+.ac-red{
+    color:  #ac1f24;
+}
+.personal-info{
+    position: relative;
+    bottom: -47px;
+    left: -20px;
+}
+
+.profile-img {
+    height: 260px;
+    background: white;
+}
+
+.info-link {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.info-link a{
+    color:  #ac1f24;
+}
+
+select {
+   width: 229px;
+    font-size: 14px;
+    height: 45px;
+    padding: 0px 15px;
+    background: #fff;
+    border: 1px solid #000;
+    margin: 0px 15px 15px;
+    border: none;
+    border: 1px solid #c4c4c4;
+    color: #c4c4c4;
+}
+
+
+input::placeholder {
+   color: #c4c4c4;
+}
+#input-search {
+    width: 229px;
+  }  
+
+  .btn{
+     background: #ac1f24;
+     color: #fff;
+     border: 0px;
+     height: 45px;
+  }
+   
+   .btn:hover{
+    background: #fff;
+    color: #ac1f24;
+    border: 1px solid #ac1f24;
+   }
+
+  a.btn-txt{
+    color: #fff;
+  }
+
+  #publication .f-14{
+     font-size: 14px;
+  }
+
+  #publication .para-r{
+     color: #ac1f24;
+  }
+ .education .para-b{
+    font-weight: 700!important;
+}
+   
+.complete{
+    display:none;
+}
+
+.more{
+    background:red;
+    color:navy;
+    font-size:16px;
+    display: block;
+    cursor:pointer;
+}
+
+
+
+.expand{
+  list-style-type: none;
+    color: #ac1f24;
+    font-size: 16px;
+    margin: 0px -17px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 600;
+}
+.expand:before{
+   position: absolute;
+    content: '';
+    margin-top: 11px;
+    width: 11px;
+    background: #fff;
+    height: 2px;
+    /* float: left; */
+    /* margin-left: 20px; */
+    background: #ac1f24;
+    left: 139px;
+}
+.expand:after{
+     position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #fff;
+    /* float: left; */
+    margin-top: 8px;
+    left: 150px;
+    border-left: 4px solid #ac1f24;
+}
